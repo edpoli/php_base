@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <form action="" method = "Get">
+    <form action="" method = "Post">
 
     inserisci username: <input type="text" name="username" id="" require>
     <input type="submit" value="verifica">

@@ -4,13 +4,8 @@ $username = "Raffaella_Carrà";
 
 $password = "Pedro";
 
-if(isset($_GET['username']) && $_GET['password']){;
-    $user = $_GET['username'];
-    $pass = $_GET['password'];
-}
-
-if ($username == $user && $password == $pass) {
-
+if(isset($_POST['username']) == $username && ($_POST['password']) == $password) {
+  
     echo "login effettuato";
 
 }else {
