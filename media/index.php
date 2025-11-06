@@ -1,12 +1,13 @@
 <?php
 
-if (isset($_POST['n1']) + isset($_POST['n2']) + isset($_POST['n3'])) {
+if (isset($_POST['n1']) && isset($_POST['n2']) && isset($_POST['n3'])) {
 
     $n1 = $_POST['n1'];
     $n2 = $_POST['n2'];
     $n3 = $_POST['n3'];
 
-    $media = ($n1 + $n2 + $n3) /3;
+    $somma = $n1 + $n2 + $n3;
+    $media = $somma/3;
 
     echo "La media è: $media";
 }
