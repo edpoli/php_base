@@ -4,11 +4,8 @@ $username = "Raffaella_Carrà";
 
 $password = "Pedro";
 
-if(isset($_GET['username'])){;
-$user = $_GET['username'];
-}
-
-if(isset($_GET['password'])){
+if(isset($_GET['username']) && $_GET['password']){;
+    $user = $_GET['username'];
     $pass = $_GET['password'];
 }
 
