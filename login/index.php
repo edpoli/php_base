@@ -9,10 +9,10 @@
 
     <form action="" method = "Post">
 
-    inserisci username: <input type="text" name="username" id="" require>
+    inserisci username: <input type="text" name="username" id="" required>
     <input type="submit" value="verifica">
 
-    inserisci password: <input type="password" name="password" id="" require>
+    inserisci password: <input type="password" name="password" id="" required>
     <input type="submit" value="verifica">
 
 
