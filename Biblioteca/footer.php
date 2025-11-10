@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-<footer class="mt-auto bg-dark text-white fixed-bottom">
+
+<footer class="mt-auto bg-dark text-white fixed-bottom" style= "height: 100px">
   <div class="container">
     <div class="row">
       <div class="col-md-4 mb-3">
@@ -26,7 +26,7 @@
     <hr class="mb-4">
     <div class="row">
       <div class="col-md-12 text-center">
-        <p>&copy; 2023 Your Company. All rights reserved.</p>
+        <p>&copy; 2025 Biblioteca. All rights reserved.</p>
       </div>
     </div>
   </div>

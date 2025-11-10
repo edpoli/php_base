@@ -8,7 +8,7 @@ require_once 'functions.php';
 
         if(!isset($_SESSION['catalogo'])){
 
-            $_SESSION['catalogo'] = []; // prima volta : rubrica nella sessione del browser
+            $_SESSION['catalogo'] = []; // prima volta : catalogo nella sessione del browser
 
         }
 
@@ -28,7 +28,7 @@ require_once 'functions.php';
     
         if ($titolo && $autore&&$anno&&$anno&&$prezzo&&$pagine){
 
-            addBooks($catalogo, $titolo, $autore, $anno, $prezzo, $pagine); // aggiungo il contatto alla rubrica
+            addBooks($catalogo, $titolo, $autore, $anno, $prezzo, $pagine); // aggiungo il libro al catalogo
 
             $message = "Libro aggiunto!";
 
@@ -58,7 +58,7 @@ require_once 'functions.php';
 <?php include 'header.php'; ?>
 
 
-    <section class="vh-100" style="padding: 200px">
+    <section class style="padding: 200px">
 
 
         <form action="" method= "Post">
@@ -73,9 +73,9 @@ require_once 'functions.php';
         </form>
 
         
-    <!--Ricerca del contatto-->
+    <!--Ricerca del libro-->
     <h2>Ricerca Libro</h2>
-    <form action="" method="POST">
+    <form action="" method="POST" class="py-5">
 
         Titolo: <input type="text" name="search_title">
 
@@ -100,7 +100,7 @@ require_once 'functions.php';
 
     
 
-         <h2>Elenco Contatti</h2>
+         <h2 class= "py-3">Elenco Contatti</h2>
 
     <?php
 
@@ -113,7 +113,7 @@ require_once 'functions.php';
 
 
     <!--Sezione di debug in formato testo originale-->
-    <h2>Debug sessione</h2>
+    <h2 class= "py-3">Debug sessione</h2>
 
     <pre> <?php  print_r($_SESSION)  ?> </pre>
 

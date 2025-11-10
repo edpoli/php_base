@@ -14,7 +14,7 @@
     <div class="container">
         <a class="navbar-brand logo" href="#">
             <img src="https://images.pexels.com/photos/170809/pexels-photo-170809.jpeg" alt="BrandName" width="50" height="50" class="me-1">
-            BrandName
+        <span class='text-white'>Biblioteca</span>
         </a>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav1">
@@ -24,16 +24,16 @@
         <div class="collapse navbar-collapse" id="navbarNav1">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link active text-white" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link text-white" href="#">Catalogo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link text-white" href="#">Servizi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link text-white" href="#">Contatti</a>
                 </li>
               
             </ul>
